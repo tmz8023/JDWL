@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+ul.nav1 li {
+	width: 100px;
+	text-align: center;
+	color: blue;
+}
+ul.nav1 li a{
+	color:blue
+}
+ul.nav1>li {
+	float: left;
+	margin-top:-10px;
+}
+
+ul.nav1 li h3 {
+	height: 60px;
+	line-height: 60px;
+	margin-top:0px;
+}
+
+ul.nav1>li>h3 {
+	background: #72a7ff;
+}
+
+ul.nav1>li>ul>li h3 {
+	background: #E1E1E1;
+}
+
+ul.nav1>li h3:hover,.choice {
+	background: #ffc0c0 !important;
+}
+
+ul>li>ul {
+	display: none;
+}
+
+ul>li.on>ul {
+	display: block;
+}
+h3 {
+    font-size: 13.5px;
+    margin:0 0;
+}
+ul.nav1 li {
+	position: relative;
+}
+
+ul.nav1>li>ul>li ul {
+	position: absolute;
+	top: 0;
+	right: -100px;
+}
+
+ul.nav1 span.sub {
+	position: absolute;
+	display: block;
+	right: 10px;
+	top: 0;
+	width: 10px;
+	margin-top:10px;
+	height: 40px;
+	background: url(../images/arrows.png) no-repeat center center;
+}

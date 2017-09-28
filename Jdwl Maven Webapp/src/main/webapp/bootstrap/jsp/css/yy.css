@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+  
+	
+
+
+
+#Mytable_Div_Id tr td {
+		width: 100px;
+		height: 100px;
+		border: 0px solid;
+}
+
+
+#table tr td .table:hover{
+		border:1px solid #E3E3E3;
+		background:white;
+	}
+#tr_id_2 td{
+	height :50px;
+}
